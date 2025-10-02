@@ -14,12 +14,14 @@ junk_data = {
  'Name': names,
  'Grade': [random.choice(grades) for _ in names],
  'Hrs reading per week': [random.choice(hours) for _ in names],
- 'Language Arts Class': [random.randint(0,5) for _ in names],
+ 'Lang.Arts Class': [random.randint(0,5) for _ in names],
  'Reading': [random.randint(0,5) for _ in names],
  'Writing': [random.randint(0,5) for _ in names],
 }
 
 data = pd.DataFrame(junk_data)
 print(data)
+print(data.describe())
+
 
 data.to_csv("data.csv", index = False)
