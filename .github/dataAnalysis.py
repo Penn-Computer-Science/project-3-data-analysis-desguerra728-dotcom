@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-f_names = ['Noah', 'Alexis', 'Katerina', 'Van', 'Aiden', 'Kyan', 'Ben', 'Martin', 'Roman']
+f_names = ['N', 'A', 'K', 'V', 'A', 'K', 'B', 'M', 'R']
 l_names = ['Bradberry', 'Luebke', 'Kedrychowicz', 'Latson', 'Girton', 'Fogarty', 'Martin', 'Williams']
 grades = [10, 11, 12]
 names = []
