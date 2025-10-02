@@ -7,6 +7,10 @@ grades = [10, 11, 12]
 names = []
 hours = ['<1', '2', '3', '3+']
 
+for i in range(8):
+    names.append(f"{f_names[i]} {l_names[i]}")
+
+
 for i in range(30):
     names.append(f"{random.choice(f_names)} {random.choice(l_names)}")
 
