@@ -2,33 +2,35 @@
 
 ## Project Info
 - **Project Title:** _Your project title here_
-- **Your Name:**
+- **Danielle Esguerra**
 - **Date:** _MM/DD/YYYY_
 
 ---
 
 ## Survey Information
-- **Survey Topic:** _Briefly describe what your survey is about_
-- **Survey Link:** [Click here to view survey](https://example.com)
-- **Number of Responses:** _e.g., 25_
+- **Survey Topic:** _The survey collects data on highschool students' dispositions on literary activities._
+- **Survey Link:** [Click here to view survey](https://docs.google.com/forms/d/e/1FAIpQLSdTG-fr6s7u128tkAFk86fPvy_XaWQVV-gfCGmtYg-dPadA0g/viewform?usp=header)
+- **Number of Responses:** _8_
 
 ---
 
 ## Survey Questions
-List the questions you asked in your survey and their type:
-
 | # | Question Text | Response Type (Multiple Choice / Numeric / Text) |
 |---|---------------|-------------------------------------------------|
-| 1 | _Example: How many hours do you sleep on school nights?_ | Numeric |
-| 2 | _Example: What is your favorite study snack?_ | Multiple Choice |
-| 3 | _..._ | _..._ |
+| 1 | _Enter your first initial._ | Text |
+| 2 | _Enter your last name._ | Text |
+| 7 | _What grade are you in?_ | _Multiple Choice_ |
+| 3 | _How many hours do you spend reading per week?_ | _Multiple Choice_ |
+| 4 | _Rank from 0-5 how much you enjoy your language arts class._ | _Numeric_ |
+| 5 | _Rank from 0-5 how much you enjoy reading._ | _Numeric_ |
+| 6 | _Rank from 0-5 how much you enjoy writing._ | _Numeric_ |
 
 ---
 
 ## Data Overview
 - **Link to Raw Data File (CSV):** [Download here](./data.csv)
-- **Number of Columns:** _e.g., 6_
-- **Number of Rows:** _e.g., 25_
+- **Number of Columns:** _6_
+- **Number of Rows:** _30_
 - **Any Cleaning Steps Taken:** _Describe what you did (handled missing values, renamed columns, converted data types, etc.)_
 
 ---
