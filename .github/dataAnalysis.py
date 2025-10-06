@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+import matplotlib.pyplot as plt
 
 f_names = ['N', 'A', 'K', 'V', 'A', 'K', 'B', 'R']
 l_names = ['Bradberry', 'Luebke', 'Kedrychowicz', 'Latson', 'Girton', 'Fogarty', 'Martin', 'Williams']
@@ -14,10 +15,10 @@ read = [3,5,2,2,0,2,3,1]
 write = [2,5,1,5,1,4,1,4]
 
 for i in range(8):
-    names.append(f"{f_names[i]} {l_names[i]}")
+    names.append(f"{f_names[i]}. {l_names[i]}")
 
 for i in range(22):
-    names.append(f"{random.choice(f_names)} {random.choice(l_names)}")
+    names.append(f"{random.choice(f_names)}. {random.choice(l_names)}")
     grades.append(random.choice(p_grades))
     hours.append(random.choice(p_hours))
     lang.append(random.randint(0,5))
@@ -36,6 +37,13 @@ data = {
 data = pd.DataFrame(data)
 print(data)
 print(data.describe())
-
+print(data.info())
 
 data.to_csv("data.csv", index = False)
+
+print(data.groupby('Reading')['Writing'])
+data.groupby('Reading')['Writing'].mean().plot(kind="bar")
+plt.title("Average Writign by Reading")
+plt.xlabel("Reading")
+plt.ylabel("Writing")
+plt.show()
