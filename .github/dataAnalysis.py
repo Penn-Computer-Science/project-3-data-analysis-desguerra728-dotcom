@@ -15,10 +15,10 @@ read = [3,5,2,2,0,2,3,1]
 write = [2,5,1,5,1,4,1,4]
 
 for i in range(8):
-    names.append(f"{f_names[i]}. {l_names[i]}")
+    names.append(f"{f_names[i]}.{l_names[i]}")
 
 for i in range(22):
-    names.append(f"{random.choice(f_names)}. {random.choice(l_names)}")
+    names.append(f"{random.choice(f_names)}.{random.choice(l_names)}")
     grades.append(random.choice(p_grades))
     hours.append(random.choice(p_hours))
     lang.append(random.randint(0,5))
@@ -42,8 +42,18 @@ print(data.info())
 data.to_csv("data.csv", index = False)
 
 print(data.groupby('Reading')['Writing'])
-data.groupby('Reading')['Writing'].mean().plot(kind="bar")
-plt.title("Average Writign by Reading")
-plt.xlabel("Reading")
-plt.ylabel("Writing")
+data.groupby('Reading')['Writing'].mean().plot(kind="line")
+plt.title("Average Rating of Writing by Rating of Reading")
+plt.xlabel("Reading Rating")
+plt.ylabel("Average Writing Rating")
+#plt.show()
+
+print(data.groupby('Hrs reading per week')['Reading'])
+data.groupby('Hrs reading per week')['Reading'].mean().plot(kind="bar")
+plt.title("Average Rating of Reading by Hrs reading per week")
+plt.xlabel("Hrs reading per week")
+plt.ylabel("Average Reading Rating")
+#plt.show()
+
+data.hist('Reading', bins=5, cumulative=False)
 plt.show()
