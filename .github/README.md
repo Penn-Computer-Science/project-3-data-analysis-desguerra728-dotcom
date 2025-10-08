@@ -19,18 +19,18 @@
 |---|---------------|-------------------------------------------------|
 | 1 | _Enter your first initial._ | Text |
 | 2 | _Enter your last name._ | Text |
-| 7 | _What grade are you in?_ | _Multiple Choice_ |
-| 3 | _How many hours do you spend reading per week?_ | _Multiple Choice_ |
-| 4 | _Rank from 0-5 how much you enjoy your language arts class._ | _Numeric_ |
-| 5 | _Rank from 0-5 how much you enjoy reading._ | _Numeric_ |
-| 6 | _Rank from 0-5 how much you enjoy writing._ | _Numeric_ |
+| 7 | _What grade are you in?_ | Multiple Choice |
+| 3 | _How many hours do you spend reading per week?_ | Multiple Choice |
+| 4 | _Rank from 0-5 how much you enjoy your language arts class._ | Numeric |
+| 5 | _Rank from 0-5 how much you enjoy reading._ | Numeric |
+| 6 | _Rank from 0-5 how much you enjoy writing._ | Numeric |
 
 ---
 
 ## Data Overview
 - **Link to Raw Data File (CSV):** [Download here](./data.csv)
-- **Number of Columns:** _6_
-- **Number of Rows:** _30_
+- **Number of Columns:** 6
+- **Number of Rows:** 30
 - **Any Cleaning Steps Taken:** _Describe what you did (handled missing values, renamed columns, converted data types, etc.)_
 
 ---
