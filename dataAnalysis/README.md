@@ -1,7 +1,7 @@
 # Project 3 -  Student Submission
 
 ## Project Info
-- **Project Title:** High School Students Enjoyment on Reading and Writing
+- **Project Title:** High School Students Enjoyment of Reading and Writing
 - **Danielle Esguerra**
 - **Date:** 10/10/25
 ---
@@ -31,7 +31,10 @@
 - **Number of Columns:** 6
 - **Number of Rows:** 30
 - **Any Cleaning Steps Taken:**
+  - Changed first names to first initial.
   - Converted the data on the number of hours spent reading from integers to strings.
+  - Changed number of hours per week category from '<1' to -'1'.
+
 ---
 
 ## Charts Created
@@ -40,8 +43,8 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
 | 1 | Average rating of Reading by Hours Reading per week | Bar Chart | Shows the average rating for reading enjoyment at each amount of hours spent reading per week. | ![Chart 1](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/dataAnalysis/charts/Average%20Rating%20of%20Reading%20by%20Hours%20Reading%20per%20Week.png)|
-| 2 | Average Rating of Writing by Rating of Reading | Line | Shows the relationship between the average rating of writing enjoyment and rating of reading enjoyment. | ![Chart 2](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/dataAnalysis/charts/Average%20Rating%20of%20Reading%20by%20Hours%20Reading%20per%20Week.png) |
-| 3 | Number of Students at each Reading Rating | Histogram | Shows the number of students who rate their enjoyment of Reading at each number (0-5). | ![Chart 3](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/dataAnalysis/charts/Average%20Rating%20of%20Reading%20by%20Hours%20Reading%20per%20Week.png) |
+| 2 | Average Rating of Writing by Rating of Reading | Line | Shows the relationship between the average rating of writing enjoyment and rating of reading enjoyment. | ![Chart 2](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/dataAnalysis/charts/Average%20Rating%20of%20Writing%20by%20Rating%20of%20Reading.png) |
+| 3 | Number of Students at each Reading Rating | Histogram | Shows the number of students who rate their enjoyment of Reading at each number (0-5). | ![Chart 3](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/dataAnalysis/charts/Number%20of%20Students%20at%20each%20Reading%20Rating.png) |
 
 ---
 
@@ -51,10 +54,12 @@ The average rating of writing generally increases as the rating of reading incre
 ---
 
 ## Reflection
-Answer briefly:
 - What went well in your project?
+  - 
 - What was the most challenging part?
+  - 
 - If you had more time, what would you do differently?
+  - 
 
 ---
 
