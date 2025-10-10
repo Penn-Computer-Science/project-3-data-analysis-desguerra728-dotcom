@@ -39,9 +39,9 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | Average rating of Reading by Hours Reading per week | Bar Chart | Shows the average rating for reading enjoyment at each amount of hours spent reading per week. | ![Chart 1](chart1.png) |
-| 2 | Average Rating of Writing by Rating of Reading | Line | Shows the relationship between the average rating of writing enjoyment and rating of reading enjoyment. | ![Chart 2](chart2.png) |
-| 3 | Number of Students at each Reading Rating | Histogram | Shows the number of students who rate their enjoyment of Reading at each number (0-5). | ![Chart 3](chart3.png) |
+| 1 | Average rating of Reading by Hours Reading per week | Bar Chart | Shows the average rating for reading enjoyment at each amount of hours spent reading per week. | ![Chart 1](.github\charts\Average Rating of Reading by Hours Reading per Week.png) |
+| 2 | Average Rating of Writing by Rating of Reading | Line | Shows the relationship between the average rating of writing enjoyment and rating of reading enjoyment. | ![Chart 2](.github\charts\Average Rating of Writing by Rating of Reading.png) |
+| 3 | Number of Students at each Reading Rating | Histogram | Shows the number of students who rate their enjoyment of Reading at each number (0-5). | ![Chart 3](.github\charts\Number of Students at each Reading Rating.png) |
 
 ---
 
