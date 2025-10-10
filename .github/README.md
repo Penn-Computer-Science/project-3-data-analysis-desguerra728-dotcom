@@ -3,12 +3,11 @@
 ## Project Info
 - **Project Title:** _Your project title here_
 - **Danielle Esguerra**
-- **Date:** _MM/DD/YYYY_
-
+- **Date:** 10/10/25
 ---
 
 ## Survey Information
-- **Survey Topic:** _The survey collects data on highschool students' dispositions on literary activities._
+- **Survey Topic:** The survey collects data on highschool students' dispositions on literary activities.
 - **Survey Link:** [Click here to view survey](https://docs.google.com/forms/d/e/1FAIpQLSdTG-fr6s7u128tkAFk86fPvy_XaWQVV-gfCGmtYg-dPadA0g/viewform?usp=header)
 - **Number of Responses:** _8_
 
@@ -31,8 +30,8 @@
 - **Link to Raw Data File (CSV):** [Download here](./data.csv)
 - **Number of Columns:** 6
 - **Number of Rows:** 30
-- **Any Cleaning Steps Taken:** _Describe what you did (handled missing values, renamed columns, converted data types, etc.)_
-
+- **Any Cleaning Steps Taken:**
+  - Converted the data on the number of hours spent reading from integers to strings.
 ---
 
 ## Charts Created
@@ -40,16 +39,16 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | _Average Sleep by Grade Level_ | Bar Chart | Shows average hours of sleep for each grade level. | ![Chart 1](chart1.png) |
-| 2 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 2](chart2.png) |
-| 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 3](chart3.png) |
+| 1 | Average rating of Reading by Hours Reading per week | Bar Chart | Shows the average rating for reading enjoyment at each amount of hours spent reading per week. | ![Chart 1](chart1.png) |
+| 2 | Average Rating of Writing by Rating of Reading | Line | Shows the relationship between the average rating of writing enjoyment and rating of reading enjoyment. | ![Chart 2](chart2.png) |
+| 3 | Number of Students at each Reading Rating | Histogram | Shows the number of students who rate their enjoyment of Reading at each number (0-5). | ![Chart 3](chart3.png) |
 
 ---
 
 ## Data Analysis & Insights
 Write a short analysis of your findings. Include at least one interesting insight from your data.
 
-> _Example:_ “We found that students who sleep 7–8 hours per night reported higher average GPAs than those who sleep less than 5 hours. Energy drink consumption peaked among 11th graders.”
+> The average rating of writing generally increases as the rating of reading increases. The average rating of reading peaked at 2 hours per week. The highest number of students rating their enjoyment of reading was 10 students at a rating of 2. I conclude that for students in grades 9-12, the enjoyment of writing is proportional to the enjoyment of reading.
 
 ---
 
