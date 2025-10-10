@@ -1,7 +1,7 @@
 # Project 3 -  Student Submission
 
 ## Project Info
-- **Project Title:** _Your project title here_
+- **Project Title:** High School Students Enjoyment on Reading and Writing
 - **Danielle Esguerra**
 - **Date:** 10/10/25
 ---
@@ -9,7 +9,7 @@
 ## Survey Information
 - **Survey Topic:** The survey collects data on highschool students' dispositions on literary activities.
 - **Survey Link:** [Click here to view survey](https://docs.google.com/forms/d/e/1FAIpQLSdTG-fr6s7u128tkAFk86fPvy_XaWQVV-gfCGmtYg-dPadA0g/viewform?usp=header)
-- **Number of Responses:** _8_
+- **Number of Responses:** 8
 
 ---
 
