@@ -27,7 +27,7 @@
 ---
 
 ## Data Overview
-- **Link to Raw Data File (CSV):** [Download here](./data.csv)
+- **Link to Raw Data File (CSV):** [Download here](https://github.com/Penn-Computer-Science/project-3-data-analysis-desguerra728-dotcom/blob/main/data.csv)
 - **Number of Columns:** 6
 - **Number of Rows:** 30
 - **Any Cleaning Steps Taken:**
