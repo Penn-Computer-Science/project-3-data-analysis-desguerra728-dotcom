@@ -16,13 +16,13 @@
 ## Survey Questions
 | # | Question Text | Response Type (Multiple Choice / Numeric / Text) |
 |---|---------------|-------------------------------------------------|
-| 1 | _Enter your first initial._ | Text |
-| 2 | _Enter your last name._ | Text |
-| 7 | _What grade are you in?_ | Multiple Choice |
-| 3 | _How many hours do you spend reading per week?_ | Multiple Choice |
-| 4 | _Rank from 0-5 how much you enjoy your language arts class._ | Numeric |
-| 5 | _Rank from 0-5 how much you enjoy reading._ | Numeric |
-| 6 | _Rank from 0-5 how much you enjoy writing._ | Numeric |
+| 1 | Enter your first initial. | Text |
+| 2 | Enter your last name. | Text |
+| 7 | What grade are you in? | Multiple Choice |
+| 3 | How many hours do you spend reading per week? | Multiple Choice |
+| 4 | Rank from 0-5 how much you enjoy your language arts class. | Numeric |
+| 5 | Rank from 0-5 how much you enjoy reading. | Numeric |
+| 6 | Rank from 0-5 how much you enjoy writing. | Numeric |
 
 ---
 
@@ -46,9 +46,7 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 ---
 
 ## Data Analysis & Insights
-Write a short analysis of your findings. Include at least one interesting insight from your data.
-
-> The average rating of writing generally increases as the rating of reading increases. The average rating of reading peaked at 2 hours per week. The highest number of students rating their enjoyment of reading was 10 students at a rating of 2. I conclude that for students in grades 9-12, the enjoyment of writing is proportional to the enjoyment of reading.
+The average rating of writing generally increases as the rating of reading increases. The average rating of reading peaked at 2 hours per week. The highest number of students rating their enjoyment of reading was 10 students at a rating of 2. I conclude that for students in grades 9-12, the enjoyment of writing is proportional to the enjoyment of reading.
 
 ---
 
