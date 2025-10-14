@@ -55,11 +55,11 @@ The average rating of writing generally increases as the rating of reading incre
 
 ## Reflection
 - What went well in your project?
-  - 
+  - Creating the survey and the junk data was relatively easy.
 - What was the most challenging part?
-  - 
+  - Coding for the graphs. I wasn't completely sure how to do the histogram and how to interpret it.
 - If you had more time, what would you do differently?
-  - 
+  - Make more graphs to easily analyze other relationships between the data.
 
 ---
 
